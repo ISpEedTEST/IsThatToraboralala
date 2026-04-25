@@ -1,0 +1,33 @@
+{
+  "name": "node-express-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+   
+
+    "start": "node index.js",
+    "dev:all": "concurrently \"node index.js\" \"npm run dev --prefix audio-dashboard\""
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@ybd-project/ytdl-core": "^6.0.8",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "ffmpeg": "^0.0.4",
+    "libsodium-wrappers": "^0.8.2",
+    "next-auth": "^4.24.14",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.0.1"
+  }
+}
