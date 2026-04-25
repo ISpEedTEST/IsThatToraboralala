@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-   
-
-    "start": "node index.js",
-    "dev:all": "concurrently \"node index.js\" \"npm run dev --prefix audio-dashboard\""
-  
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
